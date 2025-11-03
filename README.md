@@ -40,10 +40,13 @@ This project demonstrates a complete CI/CD pipeline for deploying a React applic
 
       
 2️⃣ Install Required Tools
+
     <img width="839" height="250" alt="image" src="https://github.com/user-attachments/assets/6066da41-6f7f-4363-9da9-3d374ec157b1" />
+    
         -> Access Jenkins → http://<EC2-Public-IP>:8080
 
 3️⃣ Clone Repository
+
     git clone https://github.com/sriram-R-krishnan/devops-build
     cd devops-build
 
@@ -71,10 +74,12 @@ This project demonstrates a complete CI/CD pipeline for deploying a React applic
   git add .
   git commit -m "Give a Message"
   git push origin dev
+  
   <img width="1080" height="997" alt="image" src="https://github.com/user-attachments/assets/e5ea1d67-e6ad-4e16-83c4-70866822302e" />
 
 
 5️⃣ Configure Jenkins
+
   Install Plugins:
     . Git Plugin
     . Docker Plugin
@@ -83,6 +88,7 @@ This project demonstrates a complete CI/CD pipeline for deploying a React applic
     . GitHub Integration Plugin
 
 Add Credentials:
+
 <img width="1916" height="339" alt="image" src="https://github.com/user-attachments/assets/1443ba40-11fd-4de3-97fa-2ee182947c6a" />
 
   Create Multibranch Pipeline:
@@ -98,9 +104,11 @@ In your GitHub Repo → Settings → Webhooks → Add Webhook:
     Trigger: Just the push event
 
     <img width="910" height="496" alt="image" src="https://github.com/user-attachments/assets/c073e4d7-2bdf-4faa-a3d8-98289173ef58" />
+    
     <img width="1001" height="550" alt="image" src="https://github.com/user-attachments/assets/d81ede10-3568-4554-9f72-5ca3d6d60fe8" />
 
     Login Page:
+    
     <img width="1914" height="551" alt="image" src="https://github.com/user-attachments/assets/c0dd90da-e3a9-4fac-853e-19a5cebfa4f7" />
 
 
@@ -110,6 +118,7 @@ In your GitHub Repo → Settings → Webhooks → Add Webhook:
     Create two repositories:
     1. sakthi312/dev
     2. sakthi312/prod
+    
     <img width="1986" height="639" alt="image" src="https://github.com/user-attachments/assets/b56733d8-f583-46f6-a663-71e1038ae6d8" />
 
 
