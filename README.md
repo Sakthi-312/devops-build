@@ -41,7 +41,7 @@ This project demonstrates a complete CI/CD pipeline for deploying a React applic
       
 2️⃣ Install Required Tools
 
-    <img width="839" height="250" alt="image" src="https://github.com/user-attachments/assets/6066da41-6f7f-4363-9da9-3d374ec157b1" />
+<img width="839" height="250" alt="image" src="https://github.com/user-attachments/assets/6066da41-6f7f-4363-9da9-3d374ec157b1" />
     
         -> Access Jenkins → http://<EC2-Public-IP>:8080
 
