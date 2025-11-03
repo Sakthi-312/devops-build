@@ -6,6 +6,10 @@ pipeline {
         DOCKER_USER = 'sakthi312'
     }
 
+    triggers {
+        githubPush()
+    }
+
     stages {
         stage('Build') {
             steps {
